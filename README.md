@@ -7,3 +7,4 @@ This module is made using ubuntu 20.04 LTS desktop.
 First I made /srv/salt/ts file and then edited its init.sls
 
 ## Init.sls
+Under work. It will create the user and the server and then make a password for it
