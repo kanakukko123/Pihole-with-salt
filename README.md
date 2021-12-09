@@ -1,5 +1,5 @@
 # Teamspeak3-server
-This is my own module to setup a teamspeak server with salt to my windows 10 using saltstack master-slave. This project is a part of Tero Karvises course called palvelintenhallinta. [Tero Karvinen](https://terokarvinen.com/).
+This is my module to setup Teamspeak3-server and make a secure key for it. This project is a part of Tero Karvises course called palvelintenhallinta. [Tero Karvinen](https://terokarvinen.com/).
 
 ## The module
 This module is made using ubuntu 20.04 LTS desktop.
