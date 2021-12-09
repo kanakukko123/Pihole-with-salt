@@ -13,5 +13,13 @@ I used a manual I found online [https://www.hostinger.com/tutorials/how-to-make-
       $ cd teamspeak3-server_linux_amd64
       $ sudo mv * /home/teamspeak
       $ sudo rmdir teamspeak3-server_linux_amd64/
+
+Now Teamspeak3-server should be installed and moved to /home/teamspeak/
+
+Teamspeak3 needs me to accept a license so lets do that next.
+
+      $ sudo touch .ts3server_license_accpeted
+
+continues...
 ## Init.sls
 Under work. It will create the user and the server and then make a password for it
