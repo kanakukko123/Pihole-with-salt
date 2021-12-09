@@ -22,4 +22,4 @@ Teamspeak3 needs me to accept a license so lets do that next.
 
 continues...
 ## Init.sls
-Under work. It will create the user and the server and then make a password for it
+Under work. It will create the user and the server and then make a secure key for it.
