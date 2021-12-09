@@ -20,6 +20,10 @@ Teamspeak3 needs me to accept a license so lets do that next.
 
       $ sudo touch .ts3server_license_accpeted
 
-continues...
+Now that the license has bee accepted we can create a teamspeak.service file to /lib/systemd/system/ so that we can manage the server.
+
+      $ sudoedit /lib/systemd/system/teamspeak.service
+
+![image](/pics/server.PNG) 
 ## Init.sls
 Under work. It will create the user and the server and then make a secure key for it.
