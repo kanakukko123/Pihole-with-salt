@@ -81,8 +81,9 @@ This file has it all.
  * Then we check that it is running and working well
  * Last part gives use the token so that we can get admin rights in the server
 
-Now that we run the command
-            sudo salt-call --local state.apply teamspeak
+Now that we run the command:
+
+      $ sudo salt-call --local state.apply teamspeak
 
 
 ![image](/pics/run.PNG)
