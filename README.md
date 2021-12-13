@@ -1,15 +1,16 @@
 # Teamspeak3-server
 This is my module to setup Teamspeak3-server and make a secure token for it. This project is a part of Tero Karvises course called palvelintenhallinta. [Tero Karvinen](https://terokarvinen.com/).
 
+Teamspeak is a VoIP software where you can speak with people using servers. Teamspeak3 got its last stable update 3.1.10 on 4th of june 2016.
 ## The module
 This module is made using ubuntu 20.04 LTS desktop.
 ## First I made it manually to see how it works
 I used a manual I found online [https://www.hostinger.com/tutorials/how-to-make-a-teamspeak-3-server/](https://www.hostinger.com/tutorials/how-to-make-a-teamspeak-3-server/)
 
       $ cd /home/teamspeak/
-      $ sudo wget https://files.teamspeak-services.com/releases/server/3.13.2/teamspeak3-server_linux_amd64-3.13.2.tar.bz2
-      $ sudo tar xvf teamspeak3-server_linux_amd64-3.13.2.tar.bz2
-      $ sudo rm teamspeak3-server_linux_amd64-3.13.2.tar.bz2
+      $ sudo wget https://files.teamspeak-services.com/releases/server/3.13.6/teamspeak3-server_linux_amd64-3.13.6.tar.bz2
+      $ sudo tar xvf teamspeak3-server_linux_amd64-3.13.6.tar.bz2
+      $ sudo rm teamspeak3-server_linux_amd64-3.13.6.tar.bz2
       $ cd teamspeak3-server_linux_amd64
       $ sudo mv * /home/teamspeak
       $ sudo rmdir teamspeak3-server_linux_amd64/
@@ -88,3 +89,11 @@ Now that we run the command:
 
 ![image](/pics/run.PNG)
 ![image](/pics/run2.PNG)
+
+And it works. Now I will show you the live test of it.
+
+## Sources
+
+* [https://www.hostinger.com/tutorials/how-to-make-a-teamspeak-3-server/](https://www.hostinger.com/tutorials/how-to-make-a-teamspeak-3-server/)
+* [https://www.teamspeak.com/en/downloads/#server](https://www.teamspeak.com/en/downloads/#server)
+* [https://terokarvinen.com/](https://terokarvinen.com/)
