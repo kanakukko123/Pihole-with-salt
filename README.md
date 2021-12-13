@@ -67,4 +67,23 @@ It works!
 
 Now that we have made it manually we can make it into a salt module.
 ## Init.sls
-Under work. It will create the user and the server and then make a secure token for it.
+Now that we have it working manually. Lets make it work on salt as a module. 
+
+So I made /srv/salt/teamspeak directory and edited its init.sls
+
+![image](/pics/init.PNG)
+
+This file has it all. 
+
+            user.present creates the user teamspeak
+            commands under archive.extraced takes the command from Teamspeak3-server download page and gives it its source_hash. 
+            Next part takes and accepts the license so that we can run Teamspeak
+            Then we check that it is running and working well
+            Last part gives use the token so that we can get admin rights in the server
+
+Now that we run the command
+            sudo salt-call --local state.apply teamspeak
+
+
+![image](/pics/run.PNG)
+![image](/pics/run2.PNG)
