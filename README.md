@@ -75,11 +75,11 @@ So I made /srv/salt/teamspeak directory and edited its init.sls
 
 This file has it all. 
 
-            user.present creates the user teamspeak
-            commands under archive.extraced takes the command from Teamspeak3-server download page and gives it its source_hash. 
-            Next part takes and accepts the license so that we can run Teamspeak
-            Then we check that it is running and working well
-            Last part gives use the token so that we can get admin rights in the server
+           * user.present creates the user teamspeak
+           * commands under archive.extraced takes the command from Teamspeak3-server download page and gives it its source_hash. 
+           * Next part takes and accepts the license so that we can run Teamspeak
+           * Then we check that it is running and working well
+           * Last part gives use the token so that we can get admin rights in the server
 
 Now that we run the command
             sudo salt-call --local state.apply teamspeak
