@@ -90,7 +90,6 @@ Now that we run the command:
 ![image](/pics/run.PNG)
 ![image](/pics/run2.PNG)
 
-And it works. Now I will show you the live test of it.
 
 ## Sources
 
